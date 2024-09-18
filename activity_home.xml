@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Username"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/emailStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your email has been activated"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/phoneStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your phone has been registered"
+        android:textSize="16sp"/>
+
+    <!-- Add a clickable TextView to go to the Login page -->
+    <TextView
+        android:id="@+id/goToLoginLink"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Go to Login"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
+</LinearLayout>
